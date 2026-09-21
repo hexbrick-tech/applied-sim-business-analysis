@@ -142,6 +142,10 @@ Such an issue is not, by itself, a semantic-state classification. In particular,
 
 The issue records only that the act of Interpretation exposed something that may require Evaluation.
 
+An AI-assisted practice **MAY** attach an **impact estimate** to an issue, such as Critical, Material, or Supplemental, together with a rationale. This estimate is advisory information about how strongly the issue may affect the current Interpretation or inquiry. It is not a semantic state, an intrinsic property of the issue, or semantic authority.
+
+Impact estimates remain contestable. A human or later Evaluation may revise or disregard them. Their practical purpose is attention routing: when Interpretation exposes many issues, the estimate can help prioritize which issues deserve deeper reasoning, an alternative perspective, or further Observation.
+
 For example:
 
 ```text
@@ -163,6 +167,8 @@ A semantic-state label is therefore not implied merely by the existence of an is
 
 Evaluation may conclude that the current understanding is sufficient for the present purpose, or that further Observation is useful or required.
 
+Where an issue includes an impact estimate, Evaluation **MAY** use it as prioritization input but must not treat it as authoritative. A high-impact issue does not automatically require Re-observation. Evaluation may instead determine that the available Observation supports deeper Re-interpretation or an alternative perspective. Where the available Observation is itself insufficient, further reasoning must not substitute for Re-observation.
+
 ### 4.5 Re-observation
 
 When Evaluation indicates that further Observation is needed, the cycle may return to Observation.
@@ -170,6 +176,8 @@ When Evaluation indicates that further Observation is needed, the cycle may retu
 This return is a normal analytical path rather than a failure.
 
 A return may involve another stakeholder question, examination of another artifact, observation of actual work, or a Semantic Probe. The Evaluation does not require every issue to be resolved before the analysis may proceed.
+
+When multiple issues could motivate Re-observation, their impact estimates and Evaluation results may be used to prioritize a smaller set of Observation targets. Re-observation should seek the Observation needed by the inquiry rather than mechanically turn every issue into a question.
 
 ---
 
