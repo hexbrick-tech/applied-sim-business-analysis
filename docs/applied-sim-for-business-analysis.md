@@ -109,6 +109,8 @@ Observation ≠ Interpretation ≠ Evaluation
 
 The cycle makes those distinctions operationally observable for this Business Analysis practice.
 
+The purpose of an analysis cycle is not inherently to produce a complete business model or finished analysis artifact. A valid cycle result may preserve unresolved issues, uncertainty, or missing information and still be sufficient for the current inquiry.
+
 ### 4.1 Observe
 
 Observe what can actually be established about the analytical subject.
@@ -161,13 +163,13 @@ Is the stakeholder's position required for the current decision?
 
 Evaluation applies the current purpose, concern, criterion, policy, semantic structure, or other relevant basis to the available Interpretations and issues.
 
-Evaluation may determine that an issue is irrelevant or sufficiently addressed for the current inquiry. Where appropriate, it may also evaluate the available state as Unknown, Undefined, Unresolved, Ambiguous, Conflicting, or another state supported by the analysis.
+Evaluation may determine that an issue is irrelevant, sufficiently addressed, or worth preserving without further action for the current inquiry. Where appropriate, it may also evaluate the available state as Unknown, Undefined, Unresolved, Ambiguous, Conflicting, or another state supported by the analysis.
 
-A semantic-state label is therefore not implied merely by the existence of an issue produced during Interpretation.
+A semantic-state label is therefore not implied merely by the existence of an issue produced during Interpretation. Evaluation **MAY** leave an issue without semantic-state classification when the available basis does not support or require one.
 
-Evaluation may conclude that the current understanding is sufficient for the present purpose, or that further Observation is useful or required.
+Evaluation may conclude that the current understanding is sufficient for the present purpose even when unresolved issues remain. Sufficient means sufficient for the current inquiry; it does not mean complete, fully specified, or free of uncertainty. Evaluation may also determine that deeper Re-interpretation, an alternative perspective, or further Observation is useful or required.
 
-Where an issue includes an impact estimate, Evaluation **MAY** use it as prioritization input but must not treat it as authoritative. A high-impact issue does not automatically require Re-observation. Evaluation may instead determine that the available Observation supports deeper Re-interpretation or an alternative perspective. Where the available Observation is itself insufficient, further reasoning must not substitute for Re-observation.
+Where an issue includes an impact estimate, Evaluation **MAY** use it as prioritization input but must not treat it as authoritative. Impact estimates can help route attention among issues rather than turn every issue into a request for more information. A high-impact issue does not automatically require Re-observation. Evaluation may instead determine that the available Observation supports deeper Re-interpretation or an alternative perspective. Where the available Observation is itself insufficient, further reasoning must not substitute for Re-observation.
 
 ### 4.5 Re-observation
 
