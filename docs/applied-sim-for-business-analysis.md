@@ -520,7 +520,10 @@ The important observation is that Interpretation remained distinguishable from O
 |---|---|---|
 | Observe | Observation | Direct |
 | Preserve | Preservation of semantic distinctions, observability, Difference, uncertainty, traceability | Derived |
+| Interpret | Interpretation | Direct |
 | Evaluate | Evaluation | Direct |
+| Issue | Difference preserved before classification; Interpretation / Evaluation distinction | Derived |
+| Impact estimate | Perspective-aware Evaluation and preservation of non-authoritative distinctions | Derived |
 | Reasoning Boundary / Constrain | Semantic isolation, Semantic Boundary, Semantic Authority, Observer | Derived |
 | Unknown | Unknown | Direct |
 | Undefined | Undefined | Direct |
