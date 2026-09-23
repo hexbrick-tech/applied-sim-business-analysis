@@ -2,6 +2,8 @@
 
 **Draft 0.2 — Trial Candidate**
 
+**ASG Conformance Target:** Applied SIM Standard Guidelines v0.1
+
 ## 1. Purpose
 
 Applied SIM for Business Analysis explores how the Semantic Isolation Method (SIM) can be applied to Business Analysis without silently importing software-development stages, artifacts, or implementation assumptions into the business-analysis domain.
