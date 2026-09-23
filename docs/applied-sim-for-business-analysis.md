@@ -83,23 +83,23 @@ Applied SIM for Business Analysis treats this incompleteness as observable infor
 
 ## 4. Reasoning Cycle
 
-A provisional Applied reasoning cycle emerged from historical replay of Business Analysis activity:
+A provisional Applied reasoning cycle is being tested through Business Analysis replay:
 
 ```text
 Observe
    ↓
 Preserve
    ↓
+Interpret
+   ↓
 Evaluate
    ├── sufficient
-   └── unresolved / uncertain
+   └── further observation required
               ↓
           Re-observe
 ```
 
-This is an Applied structure.
-
-It does **not** imply that Observation flows directly into Evaluation without Interpretation.
+This is an Applied structure, not a Foundation reasoning sequence.
 
 SIM Foundation distinguishes:
 
@@ -107,9 +107,9 @@ SIM Foundation distinguishes:
 Observation ≠ Interpretation ≠ Evaluation
 ```
 
-The exact placement of Interpretation within the Applied reasoning structure has not yet been established.
+The cycle makes those distinctions operationally observable for this Business Analysis practice.
 
-It must therefore not be silently absorbed into either Observation or Evaluation.
+The purpose of an analysis cycle is not inherently to produce a complete business model or finished analysis artifact. A valid cycle result may preserve unresolved issues, uncertainty, or missing information and still be sufficient for the current inquiry.
 
 ### 4.1 Observe
 
@@ -124,33 +124,29 @@ Example:
 [I] The stakeholder did not agree with the proposal.
 ```
 
-The first statement records an observation.
-
-The second assigns meaning to that observation.
-
-They may both be useful, but they are not the same epistemic act.
+The first statement records an Observation. The second assigns meaning to that Observation.
 
 ### 4.2 Preserve
 
-Preserve observations, distinctions, unresolved matters, sources, and relevant context so that later reasoning does not silently replace them.
+Preserve the available Observation, source, and relevant context without adding semantic content merely to prepare the next analytical step.
 
-Preserve is a **Derived** Applied operation.
+Preserve is a **Derived** Applied operation. It is not asserted as a named Foundation stage.
 
-It is motivated by SIM's preservation of semantic distinctions, observability, Difference, uncertainty, and traceability, but it is not asserted here as a named Foundation stage.
+Its purpose in this cycle is to prevent later reasoning from silently replacing what was observed. Questions, missing meanings, and semantic states need not be generated merely because material is being preserved.
 
-Preservation may include:
+### 4.3 Interpret
 
-- observed facts,
-- source references,
-- unresolved questions,
-- explicit assumptions,
-- interpretations,
-- model-derived content,
-- and distinctions discovered during analysis.
+Interpretation assigns meaning, relationships, or explanatory structure to the preserved Observation while remaining distinguishable from Observation itself.
 
-### 4.3 Evaluate
+Interpretation may also expose a **question or issue** that cannot be answered from the currently available Observation.
 
-Evaluation applies a concern, objective, criterion, policy, or model to material already available to the analysis.
+Such an issue is not, by itself, a semantic-state classification. In particular, the Interpret operation does not automatically label it Unknown, Undefined, Unresolved, Ambiguous, or Conflicting.
+
+The issue records only that the act of Interpretation exposed something that may require Evaluation.
+
+An AI-assisted practice **MAY** attach an **impact estimate** to an issue, such as Critical, Material, or Supplemental, together with a rationale. This estimate is advisory information about how strongly the issue may affect the current Interpretation or inquiry. It is not a semantic state, an intrinsic property of the issue, or semantic authority.
+
+Impact estimates remain contestable. A human or later Evaluation may revise or disregard them. Their practical purpose is attention routing: when Interpretation exposes many issues, the estimate can help prioritize which issues deserve deeper reasoning, an alternative perspective, or further Observation.
 
 For example:
 
@@ -159,34 +155,31 @@ For example:
 
 [I] The stakeholder's position on the proposal was not established.
 
-Concern:
-Is stakeholder alignment sufficiently understood for the decision?
-
-[E]
-Stakeholder alignment has not yet been sufficiently confirmed.
+Issue:
+Is the stakeholder's position required for the current decision?
 ```
 
-Evaluation does not create the Interpretation by definition.
+### 4.4 Evaluate
 
-Observation, Interpretation, and Evaluation remain distinguishable.
+Evaluation applies the current purpose, concern, criterion, policy, semantic structure, or other relevant basis to the available Interpretations and issues.
 
-Evaluation may conclude that the current understanding is sufficient for the present purpose, or that further observation is required.
+Evaluation may determine that an issue is irrelevant, sufficiently addressed, or worth preserving without further action for the current inquiry. Where appropriate, it may also evaluate the available state as Unknown, Undefined, Unresolved, Ambiguous, Conflicting, or another state supported by the analysis.
 
-### 4.4 Re-observation
+A semantic-state label is therefore not implied merely by the existence of an issue produced during Interpretation. Evaluation **MAY** leave an issue without semantic-state classification when the available basis does not support or require one.
 
-When evaluation exposes unresolved or insufficiently understood areas, the cycle may return to observation.
+Evaluation may conclude that the current understanding is sufficient for the present purpose even when unresolved issues remain. Sufficient means sufficient for the current inquiry; it does not mean complete, fully specified, or free of uncertainty. Evaluation may also determine that deeper Re-interpretation, an alternative perspective, or further Observation is useful or required.
 
-This return should not be treated as failure.
+Where an issue includes an impact estimate, Evaluation **MAY** use it as prioritization input but must not treat it as authoritative. Impact estimates can help route attention among issues rather than turn every issue into a request for more information. A high-impact issue does not automatically require Re-observation. Evaluation may instead determine that the available Observation supports deeper Re-interpretation or an alternative perspective. Where the available Observation is itself insufficient, further reasoning must not substitute for Re-observation.
 
-It is a normal consequence of discovering a Difference, Unknown, Undefined state, or other unresolved distinction.
+### 4.5 Re-observation
 
-A return may involve:
+When Evaluation indicates that further Observation is needed, the cycle may return to Observation.
 
-- another stakeholder question,
-- examination of another artifact,
-- observation of actual work,
-- a Semantic Probe,
-- or a change in the current reasoning boundary.
+This return is a normal analytical path rather than a failure.
+
+A return may involve another stakeholder question, examination of another artifact, observation of actual work, or a Semantic Probe. The Evaluation does not require every issue to be resolved before the analysis may proceed.
+
+When multiple issues could motivate Re-observation, their impact estimates and Evaluation results may be used to prioritize a smaller set of Observation targets. Re-observation should seek the Observation needed by the inquiry rather than mechanically turn every issue into a question.
 
 ---
 
@@ -527,7 +520,10 @@ The important observation is that Interpretation remained distinguishable from O
 |---|---|---|
 | Observe | Observation | Direct |
 | Preserve | Preservation of semantic distinctions, observability, Difference, uncertainty, traceability | Derived |
+| Interpret | Interpretation | Direct |
 | Evaluate | Evaluation | Direct |
+| Issue | Difference preserved before classification; Interpretation / Evaluation distinction | Derived |
+| Impact estimate | Perspective-aware Evaluation and preservation of non-authoritative distinctions | Derived |
 | Reasoning Boundary / Constrain | Semantic isolation, Semantic Boundary, Semantic Authority, Observer | Derived |
 | Unknown | Unknown | Direct |
 | Undefined | Undefined | Direct |
